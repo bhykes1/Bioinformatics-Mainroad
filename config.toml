@@ -1,4 +1,4 @@
-baseurl = "https://bhykes.github.io/Bio-Mainroad"
+baseURL = "https://bhykes.github.io/Bio-Mainroad"
 title = "Bioinformatics Practice"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
@@ -6,6 +6,9 @@ theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 publishDIR = "docs"
+contentDIR = "content"
+layoutDir = "layouts"
+canonifyURLs = true
 
 [Author]
     name = "Bioinformatics Site"
