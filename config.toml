@@ -1,24 +1,21 @@
-baseURL = "https://bhykes.github.io/Bio-Mainroad"
-title = "Bioinformatics Practice"
+baseurl = "/"
+title = "Mainroad"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 publishDIR = "docs"
-contentDIR = "content"
-layoutDir = "layouts"
-canonifyURLs = true
 
 [Author]
-    name = "Bioinformatics Site"
-    bio = "Words"
-    avatar = "./img/rnaseq-0-quantification-large.png"
+    name = "John Doe"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
 
 
 [Params]
-    subtitle = "Scientific Site" # Subtitle of your site
-    description = "Description of this Site" # Description of your site
+    subtitle = "Just another site" # Subtitle of your site
+    description = " John Doe's Personal blog about everything" # Description of your site
     opengraph = true
     leftsidebar = false # Move sidebar to the left side if true
     authorbox = true
@@ -30,4 +27,4 @@ canonifyURLs = true
     recent_articles = true # Enable "Recent arcticles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
-    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+        tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
